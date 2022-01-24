@@ -1,0 +1,43 @@
+.about-profile {
+	width: 100%;
+	
+	&-title {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 24px;
+		font-weight: 500;
+		margin-bottom: 14px;
+		margin-bottom: 20px;
+	}
+
+	&__form {
+		border-top: 2px solid rgb(223, 223, 223) ;
+	}
+
+	&__form-title {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		margin-bottom: 14px;
+		margin: 20px 0px;
+	}
+
+	&__form-container-wrapper {
+		margin-right: 40px;
+	}
+
+	&__form-container-button {
+		width: 22%;
+  height: 34px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: rgb(245, 191, 42);
+  border: 1px solid rgb(153, 120, 30);
+  
+		&:hover{
+		background-color: rgb(226, 176, 37);
+	}
+	}
+}

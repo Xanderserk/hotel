@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "name": "sy-training",
+      "path": "../../../../../../sy-training"
+    },
+    {
+      "name": "react-todo-first",
+      "path": "../../../../../../react-todo-first"
+    },
+    {
+      "path": "../../../../.."
+    }
+],
+  "settings": {}
+}

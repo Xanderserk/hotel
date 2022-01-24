@@ -1,0 +1,62 @@
+.account {
+  &__wrapper {
+    // background-image: url(../../../../../src/assets/images/main-page-bg-5.jpeg);
+    // background-position: center;
+    height: 70vh;
+  }
+
+  &__box {
+    padding: 1rem;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 0.7rem;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+      
+    &-item {
+      margin: 0;
+    }
+
+    &-input-block {
+      margin-bottom: 0;
+      width: 100%;
+    }
+
+    &-input {
+      margin: 0.6rem;
+    }
+
+    &-wrapper {
+      margin: 1rem;
+    }
+  }
+  
+  &__check {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &__input {
+    width: 14rem;
+    height: 1.6rem;
+  }
+  &__button {
+    width: 24rem;
+    height: 3rem;
+    background-color: orange;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+  }
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.little-red-alert {
+  font-size: 0.8rem;
+  color: #ff0000;
+
+  &__wrapper {
+    height: 0.8rem;
+  }
+}

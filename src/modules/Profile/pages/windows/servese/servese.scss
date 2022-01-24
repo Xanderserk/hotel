@@ -1,0 +1,15 @@
+.service-button{
+  width: 22%;
+  height: 34px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: rgb(245, 191, 42);
+  border: 1px solid rgb(153, 120, 30);
+  
+	&:hover{
+		background-color: rgb(226, 176, 37);
+	}
+}

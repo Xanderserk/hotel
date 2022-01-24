@@ -1,0 +1,35 @@
+.room-list{
+    
+    &-title{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 14px;
+    }
+
+    &-table{
+			width: 100%;
+			border-collapse: collapse;
+
+			&-main{
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+				font-size: 16px;
+				font-weight: 700;
+				border-bottom: 2px solid #000;
+
+				&--bold{
+					font-size: 16px;
+					font-weight: 700;
+				}
+			}
+		}
+}
+
+tr {
+	height: 50px;
+	border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+td {
+	padding-right: 10px;
+}

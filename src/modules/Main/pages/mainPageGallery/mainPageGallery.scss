@@ -1,0 +1,41 @@
+$text-color: rgb(68, 67, 67);
+
+.main-page-gallery {
+  &__wrapper {
+    max-width: 800px;
+    margin: auto;
+  }
+  &__advantage {
+    list-style: none;
+    color: $text-color;
+    & > li {
+      margin: 1rem 2rem 0 2rem;
+    }
+  }
+  &__img {
+    width: 250px;
+    height: 150px;
+    margin: 0.4rem;
+  }
+}
+
+.photo-room {
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100rem;
+
+  }
+}
+
+.photo-room {
+  height: 8rem;
+  width: 12rem;
+  border-style: solid;
+}
+
+.gallery-photos {
+  display: flex;
+  justifyItems: space-between;
+  height: 40%;
+}

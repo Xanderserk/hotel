@@ -1,0 +1,33 @@
+$text-color: rgb(68, 67, 67);
+
+.footer {
+  &__wrapper {
+    flex-shrink: 0;
+  }
+  &__block {
+    width: 900px;
+    margin: auto;
+  }
+  &__links {
+    list-style: none;
+    &-text {
+      text-decoration: none;
+      color: $text-color;
+      font-size: 1rem;
+      margin: 1rem 2rem 1rem 2rem;
+    }
+  }
+  &-image {
+    width: 100%;
+  }
+  &__copyright {
+    height: 3rem;
+    max-width: 800px;
+    margin: auto;
+    padding-left: 1rem;
+    a {
+      text-decoration: none;
+      color: $text-color;
+    }
+  }
+}
